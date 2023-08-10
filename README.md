@@ -20,20 +20,36 @@ This project is a PowerShell script that "zeros out" (wipes) any drive that is s
 <h2>Program Screenshots:</h2>
 
 <p align="center">
-Initial launch of utility: <br/>
-<img src="https://imgur.com/k1YX8rB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>Screenshot of J: drive containing data/pictures:</b> <br/>
+<img src="https://imgur.com/RxXGjE9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select disk and number of passes: <br/>
-<img src="https://imgur.com/wTUv3oy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>User input (select disk ID):</b> <br/>
+<img src="https://imgur.com/LQCoLBc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Progress bar shown (processing may take time):  <br/>
-<img src="https://imgur.com/zNVqOwI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>User input (enter number of passes for disk wipe):</b> <br/>
+<img src="https://imgur.com/3vTKLMx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization/disk wipe complete:  <br/>
-<img src="https://imgur.com/TvTkOgs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<b>User input (confirm disk ID and number of passes for disk wipe):</b>  <br/>
+<img src="https://imgur.com/iUBechQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Disk 1 selected (sanitization in progress) this may take some time to complete:</b>  <br/>
+<img src="https://imgur.com/EFaxDy2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>DiskPart succeeded in wiping the disk:</b>  <br/>
+<img src="https://imgur.com/rNJO97I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Disk format complete and primary partition set (ntfs permissions applied and drive letter assigned:</b>  <br/>
+<img src="https://imgur.com/aFhSWME.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<b>Drive J: shown after wipe containing no data:</b>  <br/>
+<img src="https://imgur.com/jDWb5ZJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
