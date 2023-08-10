@@ -6,7 +6,16 @@ This project is a PowerShell script that "zeros out" (wipes) any drive that is s
 <br>
 <br>
 <b>Initial Variables</b>
+<br>
+<br>
+$disks = Get-Disk
+<br>
+Gather all disks on the system and store them in the $disks variable.
 <br />
+<br>
+$global:DISKPART_SCRIPT = "unattend.txt"
+<br>
+Define a global variable that specifies the name of a diskpart script file.
 
 
 <h2>Languages and Utilities Used</h2>
