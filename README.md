@@ -2,7 +2,10 @@
 
 
 <h2>Description</h2>
-This project is a PowerShell script that "zeros out" (wipes) any drive that is selected from the prompt in the command. The utility allows a user to select the target disk and then choose the number of passes that are performed during the disk wipe. The PowerShell script will also run a diskpart script file based on the user's selections. Finally, the utility will launch Diskpart to perform disk sanitization. Found this project on Josh Madakor's Youtube page. Used his tutorial to learn more about Powershell.
+This project is a PowerShell script that "zeros out" (wipes) any drive that is selected from the prompt in the command. The utility allows a user to select the target disk and then choose the number of passes that are performed during the disk wipe. The PowerShell script will also run a diskpart script file based on the user's selections. Then the utility will launch Diskpart to perform disk sanitization. Finally, the disk will be formatted and primary partition set (ntfs permissions and drive letter assigned). I found this project on Josh Madakor's Youtube page, which I used to learn more about Powershell. I made some changes where needed and also some improvements which are detailed below:
+<br>
+<br>
+<b>Initial Variables</b>
 <br />
 
 
