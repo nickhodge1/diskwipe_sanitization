@@ -16,7 +16,16 @@ Gather all disks on the system and store them in the $disks variable.
 $global:DISKPART_SCRIPT = "unattend.txt"
 <br>
 Define a global variable that specifies the name of a diskpart script file.
-
+<br>
+<br>
+$global:disk_Id_To_Sanitize = "xxx"
+<br>
+Initialize a global variable for storing the disk ID to sanitize.
+<br>
+<br>
+$global:number_Of_Passes = 0
+<br>
+Initialize a global variable to store the number of times the disk should be zeroed out (sanitized).
 
 <h2>Languages and Utilities Used</h2>
 
