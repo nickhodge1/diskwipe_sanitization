@@ -26,6 +26,36 @@ Initialize a global variable for storing the disk ID to sanitize.
 $global:number_Of_Passes = 0
 <br>
 Initialize a global variable to store the number of times the disk should be zeroed out (sanitized).
+<br>
+<br>
+$confirm_To_Sanitize = $null
+<br>
+Initialize a variable that will be used later to get confirmation from the user before sanitizing the disk.
+<br>
+<br>
+$disk_IDs = [System.Collections.ArrayList]@()
+<br>
+Initialize an ArrayList to store all the disk IDs available.
+<br>
+<br>
+$SYSTEM_DRIVE = $Env:Systemdrive
+<br>
+Store the system drive letter in the $SYSTEM_DRIVE variable.
+<br>
+<br>
+<b>Functions</b>
+<br>
+<br>
+Function gather-Input-From-User
+<br>
+<br>
+This function collects information from the user about which disk they want to sanitize and how many passes they want to perform.
+
+- Display all available disks.
+- If less than 2 disks are found, display a warning and exit.
+- Prompt the user for the Disk ID they want to sanitize and check the validity.
+- Prompt the user for the number of passes (how many times to zero out the disk).
+- Display the user's selection for review and get confirmation.
 
 <h2>Languages and Utilities Used</h2>
 
