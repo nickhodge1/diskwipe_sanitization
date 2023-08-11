@@ -56,6 +56,15 @@ This function collects information from the user about which disk they want to s
 - Prompt the user for the Disk ID they want to sanitize and check the validity.
 - Prompt the user for the number of passes (how many times to zero out the disk).
 - Display the user's selection for review and get confirmation.
+  
+Function zero-With-Diskpart
+<br>
+<br>
+This function uses the Diskpart tool to sanitize (zero out) the selected disk.
+
+- Remove any existing Diskpart script files.
+- Create a new Diskpart script to zero out the selected disk.
+- Execute the Diskpart script.
 
 <h2>Languages and Utilities Used</h2>
 
