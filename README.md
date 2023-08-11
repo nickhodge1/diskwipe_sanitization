@@ -76,6 +76,26 @@ After the sanitization is complete, this function sets up the disk by creating a
 - Create a new Diskpart script to set up the disk.
 - Execute the Diskpart script.
 
+<b>Script Execution Flow</b>
+<br>
+<br>
+Execution starts with gather-Input-From-User
+<br>
+This calls the function to collect user input on which disk to sanitize and how many passes to make.
+<br>
+<br>
+for ($i = 1; $i -le $global:number_Of_Passes; $i++) { zero-With-Diskpart }
+<br>
+For each pass (as specified by the user), call the zero-With-Diskpart function to sanitize the disk.
+<br>
+<br>
+End with final-Disk-Setup
+<br>
+After sanitization is complete, call the final-Disk-Setup function to prepare the disk for use again.
+<br>
+<br>
+In summary, this script is designed to provide a user-friendly way to securely sanitize a selected disk by repeatedly zeroing it out, and then preparing the disk for use after sanitization.
+
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
